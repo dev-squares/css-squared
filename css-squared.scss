@@ -1,53 +1,11 @@
-//
-//
-//
-//
-// REQUIRED
-//
-//
-//
-//
-
-// CORE - variables. Import core variables so they are available for use in app-variables if required
+// Import core variables so they are available for use in app-variables if required
 @import "./core/variables";
 
-// APP - Import app variables before core incase any core variables have been overidden
-@import "./app-variables";
+// Import app variables before core/all incase any core variables need to be overidden
+@import "./app-variables"; // Needs creating. See readme.
 
-// CORE - all
+// Import all core styles
 @import "./core/all";
 
-
-//
-//
-//
-//
-// Optional, uncomment where required
-//
-//
-//
-//
-
-// MIXINS - OPTIONAL
-@import "./core/mixins/mixin-width-bps";
-
-// JS - OPTIONAL
-//@import "./core-optional/js-squared/all";
-
-// FRAMEWORKS - OPTIONAL
-//@import "./core-optional/wordpress/all";
-
-
-//
-//
-//
-//
-// APP
-// Add all app style files (excluding app-variables as it is already laoded) below. Example import:
-// @import "./my-app-colours";
-//
-//
-//
-//
-// APP - Import app variables before core incase any core variables have been overidden
-@import "./dev-test";
+// Import all app styles
+@import "./app-all"; // Needs creating. See readme.
