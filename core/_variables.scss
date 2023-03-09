@@ -1,0 +1,118 @@
+//
+//
+// Break points
+//
+//
+$bp-s: 600px; // breakpoint (max-width) for small devices (mobile)
+$bp-m: 1024px; // breakpoint (max-width) for medium sized devices (large mobiles /phablets)
+$bp-l: 1280px; // breakpoint (max-width) for tablet devices. 
+
+
+//
+//
+//
+//
+// Margin / Padding / Spacing
+//
+//
+//
+//
+$m-p-0: 0px;
+$m-p-0_25: 7.5px;
+$m-p-0_5: 15px;
+$m-p-1: 30px;
+$m-p-1_5: 45px;
+$m-p-2: 60px;
+
+
+//
+//
+//
+//
+// Font / Text
+//
+//
+//
+//
+// Font sizes
+$fs-xxl: 70px;
+$fs-xl: 50px;
+$fs-l: 34px;
+$fs-m: 22px;
+$fs-base: 16px;
+$fs-s: 12px;
+$fs-xs: 10px;
+$fs-form: 16px; // Should always be 16px
+
+// Font family
+$ff: sans-serif;
+$ff-special: sans-serif;
+
+// Font weights
+$fw-light: 200;
+$fw-normal: 400;
+$fw-bold: 700;
+$fw-special: 700;
+
+// Default Spacing / Line. Used on MAIN.
+$word-spacing: 2px;
+$letter-spacing: 0.3px;
+$line-height: 1.5;
+
+
+//
+//
+//
+//
+// Borders
+//
+//
+//
+//
+$border-radius-rounded: 25px;
+$border-radius-smooth: 10px;
+
+
+//
+//
+//
+//
+// Colours
+//
+//
+//
+//
+// Black and white
+$c-black:#000;
+$c-white: #FFF;
+// Greys
+$c-grey: rgb(180, 180, 180);
+$c-grey-l: #505050;
+$c-grey-d: #505050;
+// Traffic lights
+$c-green: rgb(22, 191, 65);
+$c-green-l: rgb(93, 221, 125);
+$c-green-d: rgb(93, 221, 125);
+$c-amber: rgb(232, 155, 14);
+$c-amber-l: rgb(222, 181, 105);
+$c-amber-d: rgb(222, 181, 105);
+$c-red: rgb(255, 0, 64);
+$c-red-l: rgb(248, 69, 114);
+$c-red-d: rgb(248, 69, 114);
+// Yellow
+$c-yellow: rgb(251, 255, 0);
+$c-yellow-l: rgb(238, 240, 87);
+$c-yellow-d: rgb(238, 240, 87);
+
+
+//
+//
+//
+//
+// Mixins. Helper variables for mixins to prevent compile errors
+//
+//
+//
+//
+$concatenate-percent: unquote("%");
+$concatenate-pixel: unquote("px");

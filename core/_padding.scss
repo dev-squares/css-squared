@@ -1,0 +1,62 @@
+//
+//
+//
+//
+// Main loop for settings pt(padding-top), pr(padding-right), pb(padding-bottom) and pl(padding-left)
+//
+//
+//
+//
+$array-padding: "all","top","right","bottom","left";
+@for $i from 1 through length($array-padding) {
+   
+   // Get and set the current position
+   $value: nth($array-padding, $i);
+
+   // Sizes
+   @if $value == "all"
+   {
+      .pa-0 { padding: $m-p-0; }
+      .pa-0_25 { padding: $m-p-0_25; }
+      .pa-0_5 { padding: $m-p-0_5; }
+      .pa-1 { padding: $m-p-1; }
+      .pa-1_5 { padding: $m-p-1_5; }
+      .pa-2 { padding: $m-p-2; }
+   }
+   @else if $value == "top"
+   {
+      .pt-0 { padding-#{$value}: $m-p-0; }
+      .pt-0_25 { padding-#{$value}: $m-p-0_25; }
+      .pt-0_5 { padding-#{$value}: $m-p-0_5; }
+      .pt-1 { padding-#{$value}: $m-p-1; }
+      .pt-1_5 { padding-#{$value}: $m-p-1_5; }
+      .pt-2 { padding-#{$value}: $m-p-2; }
+   }
+   @else if $value == "right"
+   {
+    .pr-0 { padding-#{$value}: $m-p-0; }
+    .pr-0_25 { padding-#{$value}: $m-p-0_25; }
+    .pr-0_5 { padding-#{$value}: $m-p-0_5; }
+    .pr-1 { padding-#{$value}: $m-p-1; }
+    .pr-1_5 { padding-#{$value}: $m-p-1_5; }
+    .pr-2 { padding-#{$value}: $m-p-2; }
+   }
+   @else if $value == "bottom"
+   {
+    .pb-0 { padding-#{$value}: $m-p-0; }
+    .pb-0_25 { padding-#{$value}: $m-p-0_25; }
+    .pb-0_5 { padding-#{$value}: $m-p-0_5; }
+    .pb-1 { padding-#{$value}: $m-p-1; }
+    .pb-1_5 { padding-#{$value}: $m-p-1_5; }
+    .pb-2 { padding-#{$value}: $m-p-2; }
+   }
+   @else if $value == "left" 
+   {
+    .pl-0 { padding-#{$value}: $m-p-0; }
+    .pl-0_25 { padding-#{$value}: $m-p-0_25; }
+    .pl-0_5 { padding-#{$value}: $m-p-0_5; }
+    .pl-1 { padding-#{$value}: $m-p-1; }
+    .pl-1_5 { padding-#{$value}: $m-p-1_5; }
+    .pl-2 { padding-#{$value}: $m-p-2; }
+   }
+}

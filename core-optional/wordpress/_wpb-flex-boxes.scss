@@ -1,0 +1,29 @@
+.wp-block-devsqs-flex-boxes {
+    margin-left: -$m-p-half;
+    margin-right: -$m-p-half;
+    display: flex;
+    flex-wrap:wrap;
+    overflow: hidden;
+    > * {
+        box-sizing: border-box;
+    }
+    &.has-background {
+        border-radius: 25px;
+    }
+    .wp-block-devsqs-flex-box {
+        padding: $m-p-half;
+        overflow: hidden;
+        &.has-background {
+            border-radius: 25px;
+        }
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .wp-block-devsqs-flex-boxes {
+            height: 100%;
+            margin-left: initial;
+            margin-right: initial;
+        }
+    }
+}

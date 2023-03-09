@@ -1,0 +1,47 @@
+.flex-item-group-spacer {
+    margin-left: -$m-p-0_5;
+    margin-right: -$m-p-0_5;
+    .flex-item-group {
+        padding-left: $m-p-0_5;
+        padding-right: $m-p-0_5;
+    }
+}
+
+.flex-item-group {
+    > * {
+        width: 100%;
+    }
+}
+
+.field-required {
+    > label {
+        position: relative;
+        &:after {
+            height: 20px;
+            width: 20px;
+            padding-left: 3px;
+            line-height: 0;
+            display: inline;
+            content:'*';
+            color: $c-red;
+            font-size: $fs-m;
+        }
+    }
+}
+
+.field-guide {
+    margin-top: $m-p-0_25;
+    font-size: $fs-s;
+    display: flex;
+    align-items: center;
+    &:before {
+        margin-right: $m-p-0_25;
+        color: $c-grey;
+        font-size: $fs-m;
+        content: "?";
+    }
+}
+
+.field-attention {
+    border-color: $c-amber;
+}

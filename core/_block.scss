@@ -1,0 +1,63 @@
+//
+//
+// BLOCK
+//
+//
+.block-center {
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+.d-b-bp-s {
+    display: none;
+    @media screen and (max-width: $bp-s) 
+    {
+        display: block;
+    }
+}
+
+.d-b-bp-m {
+    display: none;
+    @media screen and (max-width: $bp-m) 
+    {
+        display: block;
+    }
+}
+
+.d-b-bp-l {
+    display: none;
+    @media screen and (max-width: $bp-l) 
+    {
+        display: block;
+    }
+}
+
+
+//
+//
+// FLEX
+//
+//
+.d-f-bp-s {
+    display: none;
+    @media screen and (max-width: $bp-s) 
+    {
+        display: flex;
+    }
+}
+
+.d-f-bp-m {
+    display: none;
+    @media screen and (max-width: $bp-m) 
+    {
+        display: flex;
+    }
+}
+
+.d-f-bp-l {
+    display: none;
+    @media screen and (max-width: $bp-l) 
+    {
+        display: flex;
+    }
+}

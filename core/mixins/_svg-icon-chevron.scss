@@ -1,0 +1,8 @@
+@mixin svg-icon-chevron($type, $colour) {
+    // If any size is set to 33 or 66. Replace the value to be accurate to the decimal
+    @if $type == "background" {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 279.27'%3E%3Cpath d='M505.18,123.18a23.27,23.27,0,0,0-32.91,0L256,339.45,39.73,123.18A23.27,23.27,0,1,0,6.82,156.09L239.55,388.82a23.26,23.26,0,0,0,32.91,0L505.18,156.09A23.27,23.27,0,0,0,505.18,123.18Z' transform='translate(0 -116.36)' style='fill:%23" + $colour + "'/%3E%3C/svg%3E");
+    } @else if $type == "content" {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 279.27'%3E%3Cpath d='M505.18,123.18a23.27,23.27,0,0,0-32.91,0L256,339.45,39.73,123.18A23.27,23.27,0,1,0,6.82,156.09L239.55,388.82a23.26,23.26,0,0,0,32.91,0L505.18,156.09A23.27,23.27,0,0,0,505.18,123.18Z' transform='translate(0 -116.36)' style='fill:%23" + $colour + "'/%3E%3C/svg%3E");
+    }
+}

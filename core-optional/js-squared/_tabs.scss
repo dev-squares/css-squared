@@ -1,0 +1,50 @@
+.jssqd-tab-btns {
+    max-width: 100%;
+    display: flex;
+}
+
+.jssqd-tab-btn {
+    padding: $m-p-half;
+    border-top: 1px solid $c-grey;
+    border-bottom: 1px solid $c-grey;
+    border-left: 1px solid $c-grey;
+    display: flex;
+    align-items: center;
+    color: $c-link;
+    background: $c-white;
+    cursor: pointer;
+    &:hover {
+        border-bottom: 1px solid $c-link;
+        text-shadow:  $link-ah;
+    }
+    &.active {
+        border-bottom: 1px solid $c-link;
+        text-shadow:  $link-ah;
+        position: relative;
+        &:after {
+            content:'';
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -15px;
+            width: 0;
+            height: 0;
+            border-top: solid 15px $c-link;
+            border-left: solid 15px transparent;
+            border-right: solid 15px transparent;
+        }
+
+    }
+    &:last-child {
+        border-right: 1px solid $c-grey;
+    }
+}
+
+.jssqd-tab-content {
+    width: 100%;
+    padding-top: $m-p-double;
+    display: none;
+    &.active {
+        display: block;
+    }
+}

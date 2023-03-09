@@ -1,0 +1,42 @@
+//
+//
+//
+//
+// Expects to be passed 3 values
+// Large screen size, medium screen size, small screen width
+//
+//
+//
+//
+@mixin max-width-bps($set-bp-l-size, $set-bp-m-size, $set-bp-s-size) {
+    // If any size is set to 33 or 66. Replace the value to be accurate to the decimal
+
+    @if $set-bp-l-size == 33 {
+        max-width: 33.33%;
+    } @else if $set-bp-l-size == 66 {
+        max-width: 66.66%;
+    } @else {
+        max-width: $set-bp-l-size + $concatenate-percent;
+    }
+
+
+    @media only screen and (max-width: $bp-m) {
+        @if $set-bp-m-size == 33 {
+            max-width: 33.33%;
+        } @else if $set-bp-m-size == 66 {
+            max-width: 66.66%;
+        } @else {
+            max-width: $set-bp-m-size + $concatenate-percent;
+        }
+    }
+    
+    @media only screen and (max-width: $bp-s) {
+        @if $set-bp-s-size == 33 {
+            max-width: 33.33%;
+        } @else if $set-bp-s-size == 66 {
+            max-width: 66.66%;
+        } @else {
+            max-width: $set-bp-s-size + $concatenate-percent;
+        }
+    } 
+}

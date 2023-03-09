@@ -1,0 +1,87 @@
+//
+// Starting 2x
+//
+.wpb-flex-w-20-20-50 {
+    @include width-bps(20,20,50);
+}
+.wpb-flex-w-20-50-100 {
+    @include width-bps(25,50,100);
+}
+.wpb-flex-w-20-100-100 {
+    @include width-bps(20,100,100);
+}
+.wpb-flex-w-25-25-50 {
+    @include width-bps(25,25,50);
+}
+.wpb-flex-w-25-50-50 {
+    @include width-bps(25,50,50);
+}
+.wpb-flex-w-25-50-100 {
+    @include width-bps(25,50,100);
+}
+.wpb-flex-w-25-100-100 {
+    @include width-bps(25,100,100);
+}
+
+
+//
+// Starting 3x
+//
+.wpb-flex-w-30-30-100 {
+    @include width-bps(30,30,100);
+}
+.wpb-flex-w-30-100-100 {
+    @include width-bps(30,100,100);
+}
+.wpb-flex-w-33-33-100 {
+    @include width-bps(33,33,100);
+}
+.wpb-flex-w-33-50-100 {
+    @include width-bps(33,50,100);
+}
+.wpb-flex-w-33-100-100 {
+    @include width-bps(33,100,100);
+}
+
+//
+// Starting 4x
+//
+.wpb-flex-w-40-40-100 {
+    @include width-bps(40,40,100);
+}
+.wpb-flex-w-40-100-100 {
+    @include width-bps(40,100,100);
+}
+
+//
+// Starting 5x
+//
+.wpb-flex-w-50-50-50 {
+    @include width-bps(50,50,50);
+}
+.wpb-flex-w-50-50-100 {
+    @include width-bps(50,50,100);
+}
+.wpb-flex-w-50-100-100 {
+    @include width-bps(50,100,100);
+}
+
+//
+// Starting 6x
+//
+.wpb-flex-w-60-60-100 {
+    @include width-bps(60,60,100);
+}
+.wpb-flex-w-60-100-100 {
+    @include width-bps(60,100,100);
+}
+
+//
+// Starting 7x
+//
+.wpb-flex-w-70-70-100 {
+    @include width-bps(70,70,100);
+}
+.wpb-flex-w-70-100-100 {
+    @include width-bps(70,100,100);
+}

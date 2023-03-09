@@ -1,0 +1,23 @@
+.site-mw {
+    min-width: $site-min-w;
+    max-width: $site-max-w;
+}
+
+.site-inner-mw {
+    max-width: $site-inner-max-w;
+}
+
+.site-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+    @media screen and (max-width: $bp-m) 
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @media screen and (max-width: $bp-s) 
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}

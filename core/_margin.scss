@@ -1,0 +1,78 @@
+//
+//
+//
+//
+// Other
+//
+//
+//
+//
+.mb-0-lc {
+    > :last-child {
+        margin-bottom: $m-p-0;
+    }
+}
+
+
+//
+//
+//
+//
+// Main loop for settings mt(margin-top), mr(margin-right), mb(margin-bottom) and ml(margin-left)
+//
+//
+//
+//
+$array-margin: "all","top","right","bottom","left";
+@for $i from 1 through length($array-margin) {
+   
+   // Get and set the current position
+   $value: nth($array-margin, $i);
+
+   // Sizes
+   @if $value == "all"
+   {
+      .ma-0 { margin: $m-p-0; }
+      .ma-0_25 { margin: $m-p-0_25; }
+      .ma-0_5 { margin: $m-p-0_5; }
+      .ma-1 { margin: $m-p-1; }
+      .ma-1_5 { margin: $m-p-1_5; }
+      .ma-2 { margin: $m-p-2; }
+   }
+   @else if $value == "top"
+   {
+      .mt-0 { margin-#{$value}: $m-p-0; }
+      .mt-0_25 { margin-#{$value}: $m-p-0_25; }
+      .mt-0_5 { margin-#{$value}: $m-p-0_5; }
+      .mt-1 { margin-#{$value}: $m-p-1; }
+      .mt-1_5 { margin-#{$value}: $m-p-1_5; }
+      .mt-2 { margin-#{$value}: $m-p-2; }
+   }
+   @else if $value == "right"
+   {
+    .mr-0 { margin-#{$value}: $m-p-0; }
+    .mr-0_25 { margin-#{$value}: $m-p-0_25; }
+    .mr-0_5 { margin-#{$value}: $m-p-0_5; }
+    .mr-1 { margin-#{$value}: $m-p-1; }
+    .mr-1_5 { margin-#{$value}: $m-p-1_5; }
+    .mr-2 { margin-#{$value}: $m-p-2; }
+   }
+   @else if $value == "bottom"
+   {
+    .mb-0 { margin-#{$value}: $m-p-0; }
+    .mb-0_25 { margin-#{$value}: $m-p-0_25; }
+    .mb-0_5 { margin-#{$value}: $m-p-0_5; }
+    .mb-1 { margin-#{$value}: $m-p-1; }
+    .mb-1_5 { margin-#{$value}: $m-p-1_5; }
+    .mb-2 { margin-#{$value}: $m-p-2; }
+   }
+   @else if $value == "left" 
+   {
+    .ml-0 { margin-#{$value}: $m-p-0; }
+    .ml-0_25 { margin-#{$value}: $m-p-0_25; }
+    .ml-0_5 { margin-#{$value}: $m-p-0_5; }
+    .ml-1 { margin-#{$value}: $m-p-1; }
+    .ml-1_5 { margin-#{$value}: $m-p-1_5; }
+    .ml-2 { margin-#{$value}: $m-p-2; }
+   }
+}

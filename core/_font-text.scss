@@ -1,0 +1,67 @@
+//
+//
+//
+//
+// Font sizes
+// 
+//
+//
+//
+.fs-xs { font-size: $fs-xs; }
+.fs-s { font-size: $fs-s; }
+.fs-base { font-size: $fs-base; }
+.fs-m { font-size: $fs-m; }
+.fs-l { font-size: $fs-l; }
+.fs-xl { font-size: $fs-xl; }
+.fs-xxl { font-size: $fs-xxl; }
+
+
+//
+//
+//
+//
+// Font Weights
+//
+//
+//
+//
+.fw-normal { font-weight: $fw-normal; }
+.fw-bold { font-weight: $fw-bold; }
+.fw-special { font-weight: $fw-special; }
+
+
+//
+//
+// Font Families
+//
+//
+.ff-normal { font-family: $ff; }
+.ff-special { font-family: $ff-special; }
+
+
+//
+//
+//
+//
+// Text positions
+//
+//
+//
+//
+.ta-l { text-align: left; }
+.ta-c { text-align: center; }
+.ta-r { text-align: right; }
+
+
+//
+//
+//
+//
+// Other
+//
+//
+//
+//
+.tt-u { text-transform: uppercase; }
+.tt-l { text-transform: lowercase; }
+.tt-c { text-transform: capitalize; }

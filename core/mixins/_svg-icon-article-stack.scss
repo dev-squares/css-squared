@@ -1,0 +1,11 @@
+@mixin svg-icon-article-stack($type, $colour) {
+    // If any size is set to 33 or 66. Replace the value to be accurate to the decimal
+    @if $type == "background" 
+    {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304.19 233.01'%3E%3Cpath d='M4.92 70.26l143.86 61.58a8.13 8.13 0 0 0 6.37 0L299 70.26a8.09 8.09 0 0 0-.3-15L154.84.56a8.05 8.05 0 0 0-5.76 0L5.23 55.24a8.1 8.1 0 0 0-.31 15ZM152 16.77 274.19 63.26 152 115.56 29.72 63.26Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 105.3l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 150.62 11.29 90.41A8.1 8.1 0 0 0 4.92 105.3Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 137.7l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 183 11.29 122.81a8.1 8.1 0 0 0-6.73 14.74Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 170.1l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 215.42 11.29 155.21A8.1 8.1 0 0 0 4.56 170Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3C/svg%3E");
+    } 
+    @else if $type == "content" 
+    {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304.19 233.01'%3E%3Cpath d='M4.92 70.26l143.86 61.58a8.13 8.13 0 0 0 6.37 0L299 70.26a8.09 8.09 0 0 0-.3-15L154.84.56a8.05 8.05 0 0 0-5.76 0L5.23 55.24a8.1 8.1 0 0 0-.31 15ZM152 16.77 274.19 63.26 152 115.56 29.72 63.26Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 105.3l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 150.62 11.29 90.41A8.1 8.1 0 0 0 4.92 105.3Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 137.7l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 183 11.29 122.81a8.1 8.1 0 0 0-6.73 14.74Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3Cpath d='M4.92 170.1l147 62.94 147-62.94a8.1 8.1 0 1 0-6-15l-.36.15L152 215.42 11.29 155.21A8.1 8.1 0 0 0 4.56 170Z' transform='translate(0.18 -0.03)' style='fill:%23" + $colour + "'/%3E%3C/svg%3E");
+    }
+}

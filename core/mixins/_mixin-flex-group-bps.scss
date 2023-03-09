@@ -1,0 +1,15 @@
+@mixin flx-group($groupClass, $m-p-bp-l, $m-p-bp-m:$m-p-bp-l, $m-p-bp-s:$m-p-bp-l) {
+    .#{$groupClass} {
+        width: 100%;
+        overflow: hidden;
+        > * {
+            margin-left: -$m-p-bp-l;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            > * {
+                padding-left: $m-p-bp-l;
+            }
+        }
+    }
+}

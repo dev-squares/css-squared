@@ -1,0 +1,21 @@
+.pe-n {
+   pointer-events: none;
+}
+
+.notice-success {
+    border: 1px solid $c-green;
+    background-color: $c-green-l;
+    color: $c-green;
+}
+
+.notice-warning {
+    border: 1px solid $c-amber;
+    background-color: $c-amber-l;
+    color: $c-amber;
+}
+
+.notice-error {
+    border: 1px solid $c-red;
+    background-color: $c-red-l;
+    color: $c-red;
+}
