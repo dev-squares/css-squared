@@ -1,3 +1,11 @@
+# Intro #
+
+CSS-Squared is super lightweight CSS modifier framework that allows for custom styles to be added both quickly and easily. There is no relearning how everything is meant to work (assuming you understand CSS/SCSS), additional managers or packages suchs as node/npm. Just good old CSS.
+
+The 'core' by itself comes in at approximately 6kb in size when minified, truly lightweight!
+
+I will try to get around to writing documentation soon. But given it's simple nature it kind of explains itself!
+
 # Quick Start #
 
 Before starting remember these rules:
@@ -32,17 +40,12 @@ These files will contain or import all custom variables and styles.
 * Additionally import any of the optional core files listed in Step 5 inside the _app-all.scss file.
 
 ## Step 5. Optional Core Files  ##
-To use any of the below optional core files add the import snipper to the _app-all.scss file.
+To use any of the following optional core files add the import snippet inside the _app-all.scss file.
+
 ### Frameworks ###
+
 * @import "./core-optional/wordpress/all";
 
 ### JS-Squared ###
-* @import "./core-optional/js-squared/all";
 
-### Mixins - SVG Icons ###
-* @import "./core-optional/mixins/";
-* @import "./core-optional/mixins/svg-icon-chevron";
-* @import "./core-optional/mixins/svg-icon-article-stack";
-* @import "./core-optional/mixins/svg-icon-cloud-fill";
-* @import "./core-optional/mixins/svg-icon-cloud-outline";
-* @import "./core-optional/mixins/svg-icon-copy";
+* @import "./core-optional/js-squared/all";
