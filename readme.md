@@ -30,17 +30,18 @@ Create the following two required files in the root of the css-squared directory
 These files will contain or import all custom variables and styles.
 
 ## Step 3. Variables ##
-* Add custom variables (or override core variables), inside _app-variables.scss
+* Add custom variables (or override core variables), in _app-variables.scss
 
 ## Step 4. Create and Import Custom Files ##
 * Add all custom files and directories into the root of the css-squared directory. Examples:
     * /css-squared/_custom-file.scss
     * /css-squared/custom-directory/_custom-file.scss
-* Import all custom files inside the _app-all.scss file.
-* Additionally import any of the optional core files listed in Step 5 inside the _app-all.scss file.
+* Import all custom files in the _app-all.scss file.
+* Additionally import any of the optional core files listed in Step 5 in the _app-all.scss file.
 
 ## Step 5. Optional Core Files  ##
-To use any of the following optional core files add the import snippet inside the _app-all.scss file.
+
+Add the import snippet for any of the following optional core files that you wish to use in _app-all.scss.
 
 ### Frameworks ###
 
