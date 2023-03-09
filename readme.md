@@ -10,11 +10,13 @@ Before starting remember these rules:
 * Import all custom files using the _app-all.scss file that will be created during this quick start process.
 
 ## Step 1. Installation
-Pull this respository as a subtree (or download as a zip) and install to /path/to/your/css/resources/css-squared
+Pull this respository as a subtree (recommended), or download as a zip, and install to /path/to/app/css/resources/css-squared
 
-## Step 2. Create the following two files for your app in the root of the css-squared directory:
+## Step 2. Create Required Files 
+Create the following two required files in the root of the css-squared directory:
 * _app-all.scss
 * _app-variables.scss
+These files will contain or import all your customisations.
 
 ## Step 3. Variables ##
 * Add your custom variables (or override core variables), inside _app-variables.scss
