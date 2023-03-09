@@ -1,10 +1,10 @@
 # Intro #
 
-CSS-Squared is super lightweight CSS modifier framework that allows for custom styles to be added both quickly and easily. There is no relearning how everything is meant to work (assuming you understand CSS/SCSS), additional managers or packages suchs as node/npm. Just good old CSS.
+CSS-Squared is intended to be a super lightweight CSS modifier framework that is both simple and quick to customise. There is no relearning how everything is meant to work (assuming you have knowledge of CSS and SCSS), or additional package manager requirements such as node/npm.
 
-The 'core' by itself comes in at approximately 6kb in size when minified, truly lightweight!
+The 'core' by itself comes in at approximately 6kb in size when minified, truly lightweight, and includes basic variables so you can get started straight away.
 
-I will try to get around to writing documentation soon. But given it's simple nature it kind of explains itself!
+I will attempt to get around to writing documentation soon. But given it's simple nature it kind of explains itself!
 
 # Quick Start #
 
