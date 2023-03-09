@@ -9,7 +9,8 @@ Before starting remember these rules:
     * /css-squared/custom-directory/_custom-file.scss
 * Import all custom files using the _app-all.scss file that will be created during this quick start process.
 
-## Step 1. Pull this respository as a subtree (or download as a zip) and install to /path/to/your/css/resources/css-squared
+## Step 1. Installation
+Pull this respository as a subtree (or download as a zip) and install to /path/to/your/css/resources/css-squared
 
 ## Step 2. Create the following two files for your app in the root of the css-squared directory:
 * _app-all.scss
