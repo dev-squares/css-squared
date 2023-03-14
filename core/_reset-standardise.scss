@@ -3,6 +3,12 @@
 // HTML children and body
 //
 //
+html {
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+
 html * {
     padding: 0;
     margin:0;
@@ -15,7 +21,6 @@ html * {
 
 
 body {
-    min-width: 320px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
