@@ -12,19 +12,18 @@
     // If any size is set to 33 or 66. Replace the value to be accurate to the decimal
 
     @if $set-bp-l-size == 33 {
-        max-width: 33.33%;
+        max-width: 33.33 + $concatenate-percent;
     } @else if $set-bp-l-size == 66 {
-        max-width: 66.66%;
+        max-width: 66.66 + $concatenate-percent;
     } @else {
         max-width: $set-bp-l-size + $concatenate-percent;
     }
 
-
     @media only screen and (max-width: $bp-m) {
         @if $set-bp-m-size == 33 {
-            max-width: 33.33%;
+            max-width: 33.33 + $concatenate-percent;
         } @else if $set-bp-m-size == 66 {
-            max-width: 66.66%;
+            max-width: 66.66 + $concatenate-percent;
         } @else {
             max-width: $set-bp-m-size + $concatenate-percent;
         }
@@ -32,9 +31,9 @@
     
     @media only screen and (max-width: $bp-s) {
         @if $set-bp-s-size == 33 {
-            max-width: 33.33%;
+            max-width: 33.33 + $concatenate-percent;
         } @else if $set-bp-s-size == 66 {
-            max-width: 66.66%;
+            max-width: 66.66 + $concatenate-percent;
         } @else {
             max-width: $set-bp-s-size + $concatenate-percent;
         }
