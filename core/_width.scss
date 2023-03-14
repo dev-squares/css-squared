@@ -15,7 +15,7 @@
 //
 //
 //
-// The main max-width loop
+// Standard max-width loop
 // 
 //
 //
@@ -35,4 +35,25 @@ $array: 5, 10, 15, 20, 25, 30, 33, 35, 40, 45, 50, 55, 60, 65, 66, 70, 75, 80, 8
         // Normal processing
         .mw-#{$value}pc { max-width: $value + $concatenate-percent; }
     }
+}
+
+
+//
+//
+//
+//
+// Responsive max-width loop
+// 
+//
+//
+//
+
+$array: (25,25,50), (25,25,100),(25,50,50),(25,100,100),(25,50,100),(50,50,50),(50,50,100),(75,75,100),(75,100,100),(33,33,100),(33,100,100),(66,66,100),(66,100,100),(100,100,100);
+
+@for $i from 1 through length($array) {
+    $value: nth($array, $i);
+    .mw-#{nth($value, 1)}-#{nth($value, 2)}-#{nth($value, 3)}pc {
+        @include max-width-bps( nth($value, 1), nth($value, 2), nth($value, 3) );
+    }
+    // output example: .mw-5pc { max-width: 5%; }
 }
